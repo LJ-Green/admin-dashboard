@@ -31,7 +31,7 @@ const Invoices = () => {
       flex: 1,
       renderCell: (params) => (
         <Typography color={colors.greenAccent[500]}>
-          ${params.row.cost}
+          £{params.row.cost}
         </Typography>
       ),
     },
@@ -56,7 +56,7 @@ const Invoices = () => {
             borderBottom: "none",
           },
           "& .name-column--cell": {
-            color: colors.greenAccent[300],
+            color: colors.greenAccent[400],
           },
           "& .MuiDataGrid-columnHeaders": {
             backgroundColor: colors.blueAccent[700],
